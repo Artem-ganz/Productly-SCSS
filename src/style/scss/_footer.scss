@@ -1,0 +1,66 @@
+.footer {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .quick-links {
+        display: block;
+
+        h3 {
+            @extend %h3-footer;
+        }
+    }
+
+    .quick-item {
+        list-style: none;
+        padding-bottom: 15px;
+
+        a {
+            text-decoration: none;
+            color: #544837;
+        }
+    }
+
+    .quick-list {
+        padding: 0;
+    }
+
+    .legal-stuff {
+        display: block;
+        text-align: left;
+
+        h3 {
+            @extend %h3-footer;
+        }
+    }
+
+    .legal-item {
+        list-style: none;
+        padding-bottom: 15px;
+
+        a {
+            text-decoration: none;
+            color: #544837;
+        }
+    }
+
+    .legal-list {
+        padding: 0;
+    }
+
+    .form-container {
+        max-width: 340px;
+        max-height: 207px;
+
+        h3 {
+            @extend %h3-footer;
+        }
+
+        input {
+            @extend %input-footer;
+            margin-bottom: 25px;
+        }
+    }
+}

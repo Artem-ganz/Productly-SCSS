@@ -1,0 +1,11 @@
+@mixin btn-small {
+    width: 110px;
+    padding: 13px;
+    font-weight: 600;
+}
+
+@mixin btn-hover {
+    background-color: $color-btn;
+    border: 1px solid #BCD0E5;
+    color: #2F281E;
+}

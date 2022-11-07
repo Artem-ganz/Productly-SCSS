@@ -1,0 +1,36 @@
+.hero-section {
+    padding: 70px 0 0 ;
+    margin-bottom: 100px;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .hero-text {
+        max-width: 500px;
+        margin-right: 56px;
+
+        h1 {
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            color: $color-header;
+            margin: 0 0 30px;
+        }
+    }
+
+    .img-holder {
+        max-width: 100%;
+        max-width: 644px;
+        display: block;
+    }
+
+    .text-holder p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+}
